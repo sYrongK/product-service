@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: default, product
+  config:
+    activate:
+      on-profile: local
+    import: optional:configserver:http://localhost:8888
