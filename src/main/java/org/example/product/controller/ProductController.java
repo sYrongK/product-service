@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "/apis/product")
+@RequestMapping(value = "/apis")
 public class ProductController {
 
     @GetMapping("/home")
